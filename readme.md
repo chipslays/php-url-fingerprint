@@ -30,7 +30,7 @@ Here is a quick example of how to use the Pathor library:
 ```php
 use Pathor\Url;
 
-$pathor = new Url();
+$pathor = new Url;
 
 $url = 'https://www.example.com/path///../a/b/../c//ё//hello world/?ref=google&b=2&a=1&&=&&foo[1]=222&foo[0]=111#hello world';
 
@@ -219,6 +219,7 @@ Example:
 
 ```php
 $details = $pathor->details('https://www.example.com:443/path///../a/b/../c//ё//hello world/?ref=google&b=2&a=1&&=&&foo[1]=222&foo[0]=111#hello world');
+
 dd($details);
 
 // ^ array:4 [
