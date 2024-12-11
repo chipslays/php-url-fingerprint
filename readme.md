@@ -1,4 +1,4 @@
-# Pathor URL Normalization Library Documentation
+# 🔗 Pathor
 
 ## Overview
 
@@ -191,22 +191,6 @@ dd($components);
 //   "query" => "query=value"
 //   "fragment" => "fragment"
 // ]
-```
-
-**Output:**
-
-```php
-Array
-(
-    [scheme] => https
-    [host] => example.com
-    [user] => user
-    [password] => pass
-    [port] => 8080
-    [path] => /path
-    [query] => query=value
-    [fragment] => fragment
-)
 ```
 
 #### `build(array $components): string`
