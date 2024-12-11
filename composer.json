@@ -1,0 +1,24 @@
+{
+    "name": "pathor/url",
+    "type": "library",
+    "require-dev": {
+        "symfony/var-dumper": "^7.2",
+        "pestphp/pest": "^3.7",
+        "pestphp/pest-plugin": "^3.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Pathor\\": "src/"
+        }
+    },
+    "require": {
+        "league/uri": "^7.5",
+        "league/uri-components": "^7.5"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
