@@ -55,6 +55,10 @@ $details = $pathor->details($url);
 dd($details); // Outputs an array with parsed and normalized components
 ```
 
+### Examples
+
+Examples can be found [here](./examples).
+
 ### Configuration
 
 The `Url` class can be customized with configuration options to adjust the normalization behavior. These options include:
